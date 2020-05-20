@@ -1,0 +1,293 @@
+/**
+ * fil: css/style.css
+ **/
+
+/* Generelle regler */
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+/* font */ 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+/* farver */
+
+:root {
+    --main-color: #A3FFC8;
+    --text-color: grey;
+    --hover-color: #8CDBF5;
+}
+
+/* Generelle regler slut */
+
+
+
+/* Header start */ 
+
+header {
+    padding: 20px; 
+    width: 100%;
+}
+
+li a {
+font-family: "Open-sans", sans-serif;
+font-weight: 500;
+font-size: 16px;
+color: var(--text-color);
+text-decoration: none;
+}
+
+
+#logo img {
+max-height: 70px;
+
+}
+
+.menu {
+    list-style: none;
+    float:right;
+    margin-top: -40px;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.menu li a {
+    transition: all 0.3s ease 0s;
+}
+
+.menu li a:hover {
+    color: var(--hover-color);
+}
+
+#contact { 
+    padding: 9px 25px;
+    background-color: var(--hover-color);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+
+}
+
+contact:hover {
+    background-color: var(--main-color); 
+}
+
+/* Skjuler burgermenuens checkbox som aktiverer toggle funktionen */
+.menu-btn {
+    display: none;
+}
+/* Header slut */
+
+/* Responsiv - Smartphone */
+
+@media all and (max-width: 600px){
+    
+.nav {
+   width: 100%;
+   z-index: 3;
+   height: 50px; 
+   
+}
+
+.nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: #fff;
+
+    }
+    
+    
+.nav ul li {
+    display: block;
+    padding: 20px 20px;
+    border-right: 1px solid #f4f4f4;
+    text-decoration: none;
+    }
+
+.nav ul li a:hover {
+    background-color: var(--hover-color);
+    }
+    
+	.nav .logo {
+  display: block;
+  float: left;
+  font-size: 2em;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+    
+    .nav .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height .2s ease-out;
+}
+
+  /* menu icon */
+    .nav .menu-icon {
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  padding: 20px 20px;
+  position: relative;
+  user-select: none;
+}
+
+.nav .menu-icon .navicon {
+  background: #333;
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background .2s ease-out;
+  width: 18px;
+}
+
+.nav .menu-icon .navicon:before,
+.nav .menu-icon .navicon:after {
+  background: #333;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+
+.nav .menu-icon .navicon:before {
+  top: 5px;
+}
+
+.nav .menu-icon .navicon:after {
+  top: -5px;
+}
+    
+    
+    
+/* icon and menu animations */
+.nav .menu-btn {
+  display: none;
+}
+
+.nav .menu-btn:checked ~ .menu {
+  max-height: 240px;
+}
+
+.nav .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+}
+
+.nav .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+
+.nav .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+
+.nav .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.nav .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0;
+}
+    
+    
+/* Responsive - Tablet */ 
+
+    @media all and (max-width: 600px){
+        
+/* Header start */ 
+
+header {
+    padding: 20px; 
+    width: 100%;
+}
+
+li a {
+font-family: "Open-sans", sans-serif;
+font-weight: 500;
+font-size: 16px;
+color: var(--text-color);
+text-decoration: none;
+}
+
+
+#logo img {
+max-height: 70px;
+
+}
+
+.menu {
+    list-style: none;
+    float:right;
+    margin-top: -40px;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.menu li a {
+    transition: all 0.3s ease 0s;
+}
+
+.menu li a:hover {
+    color: var(--hover-color);
+}
+
+#contact { 
+    padding: 9px 25px;
+    background-color: var(--hover-color);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+
+}
+
+contact:hover {
+    background-color: var(--main-color); 
+}
+
+/* Skjuler burgermenuens checkbox som aktiverer toggle funktionen */
+.menu-btn {
+    display: none;
+}
+/* Header slut */
+
+      
+    
+/* logo style */
+    
+#logo {
+    position: fixed;
+    float: left;
+    margin-top: 3px;
+    }
+
+
+}
+
+
+
+/* Baggrundsbillede CSS start */
+
+#baggrunds-billede {
+width: 100%;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+    
+    
+    
+    
+    
+    
+    
