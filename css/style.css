@@ -9,6 +9,8 @@ margin: 0;
 padding: 0;
 }
 
+
+
 /* font */ 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
@@ -20,16 +22,26 @@ padding: 0;
     --hover-color: #8CDBF5;
 }
 
-/* Generelle regler slut */
 
+/* Baggrundsbillede*/
 
+body {
+background-image: url(../images/LBB_bg_4.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+min-height: 1200px;
+
+}
 
 /* Header start */ 
 
 header {
     padding: 20px; 
     width: 100%;
+    background: transparent;
 }
+
 
 li a {
 font-family: "Open-sans", sans-serif;
@@ -88,6 +100,13 @@ contact:hover {
 
 @media all and (max-width: 600px){
     
+/* baggrundsbillede */
+    
+body {
+background-image: url(../images/mobil_bg_3.jpg);
+min-height: 800px;
+
+    }
 .nav {
    width: 100%;
    z-index: 3;
@@ -201,6 +220,12 @@ contact:hover {
 
     @media all and (max-width: 600px){
         
+/* baggrundsbillede */
+        
+body {
+background-image: url(../images/ipad_bg_1.jpg);
+}
+        
 /* Header start */ 
 
 header {
@@ -271,23 +296,14 @@ contact:hover {
     margin-top: 3px;
     }
 
-
-}
-
-
-
-/* Baggrundsbillede CSS start */
-
-#baggrunds-billede {
-width: 100%;
-background-size: cover;
-background-repeat: no-repeat;
-background-attachment: fixed;
-}
     
+/* CSS Underside 1 - opskrifter */ 
     
+/*Baggrundsbillede */ 
+
     
+
     
-    
+
     
     
