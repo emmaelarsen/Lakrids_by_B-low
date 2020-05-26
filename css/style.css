@@ -2,7 +2,7 @@
  * fil: css/style.css
  **/
 
-/* Generelle regler */
+/* GENERELLE REGLER*/
 *{
 box-sizing: border-box;
 margin: 0;
@@ -11,10 +11,10 @@ padding: 0;
 
 
 
-/* font */ 
+/* FONT */ 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
-/* farver */
+/* FARVER */
 
 :root {
     --main-color: #A3FFC8;
@@ -23,9 +23,8 @@ padding: 0;
 }
 
 
-/* Baggrundsbillede*/
 
-/* Header start */ 
+/* HEADER - START */ 
 
 header {
     background-image: url(../images/LBB_bg_4.jpg);
@@ -52,13 +51,14 @@ text-decoration: none;
 #logo img {
 
 margin-top: -20px;
-position: fixed;
 padding: 10px;
+max-height: 90px;
 
 }
 
 .menu {
     list-style: none;
+    margin-top: -80px;
     float:right;
 }
 
@@ -93,9 +93,56 @@ contact:hover {
 .menu-btn {
     display: none;
 }
-/* Header slut */
+/* HEADER - SLUT */
 
-/* Responsiv - Smartphone */
+
+/* PRODUKT INFO - START */
+
+
+.info {
+
+background-color: antiquewhite;
+}
+
+
+.info-tekst {
+    
+display: flex;
+flex-direction: column;
+margin-left: 700px;
+margin-bottom: -200px;
+}
+
+/* Sirup tekst */
+.headline {
+text-align: center;
+padding: 20px;
+}
+
+
+/* Køb knap */
+.cta-btn { 
+    padding: 9px 25px;
+    background-color: var(--hover-color);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+  
+}
+
+/* billede */
+
+.info-img {
+padding: 20px;
+margin-top: 30px;
+width: 100%;
+
+
+}
+
+/* PRODUKT INFO - SLUT */
+
+/* RESPONSIV SMARTPHONE - START */
 
 @media all and (max-width: 600px){
     
@@ -147,7 +194,7 @@ background-position: center;
   padding: 10px 20px;
   text-decoration: none;
 margin-top: -20px;
-        position: fixed;
+
 }
     
     .nav .menu {
@@ -221,9 +268,28 @@ margin-top: -20px;
 .nav .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
   top: 0;
 }
+
     
+.info { 
+display: flex;
+flex-direction: column;
+    }
+
+.info-tekst {
+margin-left: 30px;
+margin-right: 30px;
+
+    }
+
+    .info-img {
+        overflow: hidden;
+        margin-top: 200px;
+    }
+        
+
+/* RESPONSIV SMARTPHONE - SLUT */
     
-/* Responsive - Tablet */ 
+/* RESPONSIV TABLET - START */ 
 
     @media all and (max-width: 600px){
         
@@ -294,25 +360,8 @@ contact:hover {
 }
 /* Header slut */
 
-      
-    
-/* logo style */
-    
-#logo {
-    position: fixed;
-    float: left;
-    margin-top: 3px;
-    }
 
-
-/* produkt info */ 
-        
-.produkt_container {
-
-            
-}
-        
-/* CSS Underside 1 - opskrifter */ 
+/* RESPONSIV TABLET SLUT */
     
 
 
