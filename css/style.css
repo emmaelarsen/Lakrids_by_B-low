@@ -26,8 +26,7 @@ padding: 0;
 
 /* HEADER - START */ 
 
-header {
-    background-image: url(../images/LBB_bg_4.jpg);
+.common-header {
     padding: 20px; 
     width: 100%;
     height: 100vh;
@@ -35,9 +34,15 @@ header {
     background-size: cover;
     background-position: center;
     
-
 }
 
+header#index {
+background-image: url(../images/LBB_bg_4.jpg);
+}
+
+header#opskrifter {
+background-image: url(../images/sweetsirup%20.jpg);
+}
 
 li a {
 font-family: "Open-sans", sans-serif;
@@ -140,6 +145,7 @@ width: 100%;
 
 }
 
+
 /* PRODUKT INFO - SLUT */
 
 /* RESPONSIV SMARTPHONE - START */
@@ -187,7 +193,7 @@ background-position: center;
     background-color: var(--hover-color);
     }
     
-	.nav .logo {
+.nav .logo {
   display: block;
   float: left;
   font-size: 2em;
@@ -197,14 +203,14 @@ margin-top: -20px;
 
 }
     
-    .nav .menu {
+.nav .menu {
   clear: both;
   max-height: 0;
   transition: max-height .2s ease-out;
 }
 
   /* menu icon */
-    .nav .menu-icon {
+.nav .menu-icon {
   cursor: pointer;
   display: inline-block;
   float: right;
@@ -293,8 +299,6 @@ margin-right: 30px;
 
     @media all and (max-width: 600px){
         
-/* baggrundsbillede */
-        
 
 /* Header start */ 
 
@@ -363,11 +367,12 @@ contact:hover {
 
 /* RESPONSIV TABLET SLUT */
     
+       
+        
+/* UNDERSIDE 1 - OPSKRIFTER - START */
 
 
-    
 
-    
 
     
     
