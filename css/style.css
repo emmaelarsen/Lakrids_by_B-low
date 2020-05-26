@@ -40,8 +40,14 @@ header#index {
 background-image: url(../images/LBB_bg_4.jpg);
 }
 
+
 header#opskrifter {
-background-image: url(../images/sweetsirup%20.jpg);
+padding: 20px; 
+width: 100%;
+background-color: aliceblue;
+background-size: auto;
+position: relative;
+overflow: hidden;
 }
 
 li a {
@@ -80,7 +86,7 @@ max-height: 90px;
     color: var(--hover-color);
 }
 
-#contact { 
+#kurv { 
     padding: 9px 25px;
     background-color: var(--hover-color);
     border: none;
@@ -90,7 +96,7 @@ max-height: 90px;
 
 }
 
-contact:hover {
+kurv:hover {
     background-color: var(--main-color); 
 }
 
@@ -344,7 +350,7 @@ max-height: 70px;
     color: var(--hover-color);
 }
 
-#contact { 
+#kurv { 
     padding: 9px 25px;
     background-color: var(--hover-color);
     border: none;
@@ -354,7 +360,7 @@ max-height: 70px;
 
 }
 
-contact:hover {
+kurv:hover {
     background-color: var(--main-color); 
 }
 
@@ -364,15 +370,6 @@ contact:hover {
 }
 /* Header slut */
 
-
 /* RESPONSIV TABLET SLUT */
-    
-       
-        
+          
 /* UNDERSIDE 1 - OPSKRIFTER - START */
-
-
-
-
-    
-    
