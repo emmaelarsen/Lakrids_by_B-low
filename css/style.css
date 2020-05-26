@@ -154,7 +154,7 @@ width: 100%;
     
 /* baggrundsbillede */
     
-header {   
+header#index{   
 background-image: url(../images/mobil_bg_3.jpg);
 padding: 20px; 
 width: 100%;
@@ -302,7 +302,7 @@ margin-right: 30px;
 
 /* Header start */ 
 
-header {
+header#index {
     background-image: url(../images/ipad_bg_1.jpg);
     padding: 20px; 
     width: 100%;
