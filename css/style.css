@@ -298,7 +298,7 @@ margin-right: 30px;
         margin-top: 200px;
     }
         
-
+  }
 /* RESPONSIV SMARTPHONE - SLUT */
     
 /* RESPONSIV TABLET - START */ 
@@ -368,14 +368,32 @@ kurv:hover {
 .menu-btn {
     display: none;
 }
+}
 /* Header slut */
 
 /* RESPONSIV TABLET SLUT */
           
 /* UNDERSIDE 1 - OPSKRIFTER - START */
+.opskrift-salty {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center; 
+}
 
+.opskrift-sweet {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center; 
+}
 
-        
-        
-        
-        
+.salty-h {
+text-align: center;
+padding: 10px;
+}
+
+.sweet-h {
+text-align: center;
+padding: 10px;
+}
