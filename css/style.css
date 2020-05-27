@@ -31,9 +31,7 @@ padding: 0;
     width: 100%;
     height: 100vh;
     background-repeat: no-repeat;
-    background-size: cover;
-
-    
+    background-size: cover;  
 }
 
 header#index {
@@ -177,19 +175,17 @@ kurv:hover {
 
 /* PRODUKT INFO - START */
 
-
-.info {
-
-background-color: antiquewhite;
+.produkt-info {
+    display: flex; 
+    flex-direction: row-reverse;
+    flex-flow: wrap;
 }
-
 
 .info-tekst {
     
 display: flex;
 flex-direction: column;
-margin-left: 700px;
-margin-bottom: -200px;
+padding: 20px;
 }
 
 /* Sirup tekst */
@@ -206,6 +202,11 @@ padding: 20px;
     border: none;
     border-radius: 50px;
     cursor: pointer;
+    max-width: 90px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--text-color);
+    align-self: center;
   
 }
 
@@ -213,8 +214,9 @@ padding: 20px;
 
 .info-img {
 padding: 20px;
-margin-top: 30px;
+margin-top: 80px;
 width: 100%;
+flex-flow: wrap;
 
 
 }
@@ -234,11 +236,22 @@ width: 100%;
     
 }
 
-.insta-1, .insta-2, .insta-3 {
+.insta-1, .insta-2, .insta-3, .insta-4, .insta-5 {
 
-    padding: 20px;
+padding: 20px;
     
 }
+
+
+/* insta overskrift */
+
+.insta-h {
+
+padding: 20px;
+text-align: center;
+    
+}
+
 
 /* RESPONSIV SMARTPHONE - START */
 
@@ -392,7 +405,6 @@ margin-right: 30px;
 
 @media all and (max-width: 600px){
         
-
 /* Header start */ 
 
 header#index {   
@@ -457,9 +469,13 @@ kurv:hover {
     display: none;
 }
     
-}
+
 /* Header slut */
 
+/* Produkt info start */
+
+
+}
 /* RESPONSIV TABLET SLUT */
           
 /* UNDERSIDE 1 - OPSKRIFTER - START */
