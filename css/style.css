@@ -222,6 +222,24 @@ width: 100%;
 
 /* PRODUKT INFO - SLUT */
 
+
+/* INSTA BILLEDER START */
+
+.insta-billeder {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; 
+    padding: 20px;
+    
+}
+
+.insta-1, .insta-2, .insta-3 {
+
+    padding: 20px;
+    
+}
+
 /* RESPONSIV SMARTPHONE - START */
 
 @media all and (max-width: 600px){
