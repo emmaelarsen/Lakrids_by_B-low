@@ -381,6 +381,20 @@ margin-top: -20px;
   top: 0;
 }
 
+/* lakrids planter */ 
+    
+    .plante {
+        max-width: 200px;
+        margin-bottom: 120px;
+        left: 10px;
+    }
+    
+    .plante1 {
+        max-width: 200px;
+        margin-bottom: 130px;
+        right: -170px
+    }
+
 /* Info tekst */
     
 .info { 
@@ -404,7 +418,7 @@ margin-right: 30px;
     
 /* RESPONSIV TABLET - START */ 
 
-@media all and (max-width: 600px){
+@media all and (min-width:600px) and (max-width: 800px){
         
 /* Header start */ 
 
@@ -473,19 +487,6 @@ kurv:hover {
 
 /* Header slut */
     
-/* lakrids planter */ 
-    
-    .plante {
-        max-width: 200px;
-        margin-bottom: 120px;
-        left: 10px;
-    }
-    
-    .plante1 {
-        max-width: 200px;
-        margin-bottom: 130px;
-        right: -170px
-    }
 
 /* Produkt info start */
 
