@@ -178,7 +178,7 @@ kurv:hover {
 .produkt-info {
     display: flex; 
     flex-direction: row-reverse;
-    background-color: aliceblue;
+    background-image: linear-gradient(#b9d1f0, white);
 }
 
 .info-tekst {
