@@ -178,12 +178,10 @@ kurv:hover {
 .produkt-info {
     display: flex; 
     flex-direction: row-reverse;
-    flex-flow: wrap;
     background-color: aliceblue;
 }
 
 .info-tekst {
-    
 display: flex;
 flex-direction: column;
 padding: 20px;
@@ -215,9 +213,7 @@ padding: 20px;
 
 .info-img {
 padding: 20px;
-margin-top: 80px;
 width: 100%;
-flex-flow: wrap;
 
 
 }
@@ -399,21 +395,14 @@ max-width: 160px;
 
 /* Info tekst */
     
-.info { 
-display: flex;
-flex-direction: column;
-    }
-
-.info-tekst {
-margin-left: 30px;
-margin-right: 30px;
-
-    }
+.produkt-info {
+    display: flex; 
+    flex-direction: column;
+}
 
     .info-img {
         overflow: hidden;
     }
-    
     
 /* Fjerner overskydende insta billeder */ 
     .insta-2, .insta-3, .insta-4, .insta-5 {
@@ -513,6 +502,12 @@ kurv:hover {
     
     
 /* Produkt info start */
+    
+
+.produkt-info {
+    display: flex; 
+    flex-direction: column;
+}
     
 /* Fjerner overskydende insta billeder */ 
     .insta-3, .insta-4, .insta-5 {
