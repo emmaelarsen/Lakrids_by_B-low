@@ -12,13 +12,13 @@ padding: 0;
 
 
 /* FONT */ 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
 
 /* FARVER */
 
 :root {
     --main-color: #A3FFC8;
-    --text-color: grey;
+    --text-color: black;
     --hover-color: #8CDBF5;
 }
 
@@ -451,11 +451,12 @@ max-height: 70px;
 .menu {
     list-style: none;
     float:right;
+
 }
 
 .menu li {
     display: inline-block;
-    padding: 0px 20px;
+    padding: 25px 20px;
 }
 
 .menu li a {
