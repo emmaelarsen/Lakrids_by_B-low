@@ -57,6 +57,14 @@ position: relative;
 overflow: hidden;
 }
 
+header#koeb {
+padding: 20px; 
+width: 100%;
+background-color: #b9d1f0;
+background-size: auto;
+position: relative;
+overflow: hidden;
+}
 
 li a {
 font-family: "Open-sans", sans-serif;
@@ -636,6 +644,48 @@ padding: 10px;
 }
 
 
+/* UNDERSIDE 3 - KØB */
+
+.koeb-bg {
+background-image: linear-gradient(#b9d1f0, white);
+   
+}
+
+.lakrids-sirup{
+
+display: flex;
+flex-direction: row;
+flex-flow: wrap;
+text-align: center;
+justify-content: center;
+
+    
+}
+
+.lakrids-gave {
+display: flex;
+flex-flow: wrap;
+    
+}
 
 
+.soed-lakrids {
+    margin: 20px;
+    
+}
 
+.salt-lakrids {
+    margin: 20px;
+}
+
+.lakrids-gave {
+    margin: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+/* generelt overskrifter og tekst */
+
+h2, p {
+ margin: 10px;
+}
