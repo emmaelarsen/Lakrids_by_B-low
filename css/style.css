@@ -42,7 +42,7 @@ background-image: url(../images/LBB_bg_7.jpg);
 header#opskrifter {
 padding: 20px; 
 width: 100%;
-background-color: aliceblue;
+background-color: #b9d1f0;
 background-size: auto;
 position: relative;
 overflow: hidden;
@@ -51,7 +51,7 @@ overflow: hidden;
 header#drinks {
 padding: 20px; 
 width: 100%;
-background-color: aliceblue;
+background-color: #b9d1f0;
 background-size: auto;
 position: relative;
 overflow: hidden;
@@ -214,6 +214,9 @@ padding: 20px;
 .info-img {
 padding: 20px;
 width: 100%;
+margin-left: 80px;
+margin-top: 40px;
+
 
 
 }
@@ -519,12 +522,16 @@ kurv:hover {
           
 /* UNDERSIDE 1 - OPSKRIFTER - START */
 
+.opskrifter-bg{
+background-image: linear-gradient(#b9d1f0, white);
+}
+
 /* opskrift-kort responsiv med flexbox */
 .opskrift-salty {
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
-justify-content: center; 
+justify-content: center;
 
 }
 
@@ -549,8 +556,8 @@ justify-content: center;
 /* tekst inde i kort */
 
     text-align: center;
-
 }
+
 
 
 /* overskrifter */
@@ -566,6 +573,10 @@ padding: 10px;
 
 
 /*UNDERSIDE 2 - DRINKS - START */
+
+.drinks-bg {
+background-image: linear-gradient(#b9d1f0, white);
+}
 
 /* drinks-kort responsiv med flexbox */
 
@@ -588,6 +599,7 @@ justify-content: center;
     
 /*tekst inde i kort */
     text-align: center;
+
 
 }
 
