@@ -648,6 +648,7 @@ padding: 10px;
 
 .koeb-bg {
 background-image: linear-gradient(#b9d1f0, white);
+min-height: 1000px;
    
 }
 
