@@ -286,10 +286,12 @@ font-size: 20px;
 
 #copyright {
 padding: 30px;
+font-size: 20px;
 }
-.so-me img {
-max-width: 60px;
-margin: 20px;
+
+.so-me img{
+max-width: 70px;
+margin: 10px;
 }
 
 
@@ -456,7 +458,17 @@ max-width: 160px;
         display: none;
     }
         
+   
+/* footer */ 
     
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        margin: 15px;
+        text-align: center;
+        
+    }
     
 /* UNDERSIDE 1 - OPSKRIFTER {
   /* Billeder */
