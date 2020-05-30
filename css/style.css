@@ -529,6 +529,15 @@ min-width: 350px;
     width: 100%;
            
     }
+    
+    
+    
+/* UNDERSIDE 3 - KØB */ 
+
+    .lakrids-sirup img, .lakrids-gave img{
+        width: 100%;   
+    }
+
   }
 /* RESPONSIV SMARTPHONE - SLUT */
     
@@ -739,14 +748,17 @@ padding: 10px;
 
 /* UNDERSIDE 3 - KØB */
 
-.koeb-bg {
+.shop-bg {
 background-image: linear-gradient(#b9d1f0, white);
 min-height: 1000px;
    
 }
 
-.lakrids-sirup{
+.shop-h h1 {
+text-align: center; 
+}
 
+.lakrids-sirup{
 display: flex;
 flex-direction: row;
 flex-flow: wrap;
@@ -764,12 +776,12 @@ flex-flow: wrap;
 
 
 .soed-lakrids {
-    margin: 20px;
+    margin: 40px;
     
 }
 
 .salt-lakrids {
-    margin: 20px;
+    margin: 40px;
 }
 
 .lakrids-gave {
@@ -777,6 +789,15 @@ flex-flow: wrap;
     justify-content: center;
     text-align: center;
 }
+
+/* tekst */
+
+.soed-lakrids h2, .salt-lakrids h2 {
+margin-bottom: 20px
+}
+
+/* UNDERSIDE 3 - KØB SLUT */ 
+
 
 /* generelt overskrifter og tekst */
 
