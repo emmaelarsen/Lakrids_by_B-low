@@ -17,9 +17,10 @@ padding: 0;
 /* FARVER */
 
 :root {
-    --main-color: #A3FFC8;
+    --main-color: #f8f1e5;
     --text-color: black;
-    --hover-color: #8CDBF5;
+    --hover-color: #7FACD8;
+    --bg-color: #b9d1f0;
 }
 
 
@@ -42,7 +43,7 @@ background-image: url(../images/LBB_bg_7.jpg);
 header#opskrifter {
 padding: 20px; 
 width: 100%;
-background-color: #b9d1f0;
+background-color: var(--bg-color);
 background-size: auto;
 position: relative;
 overflow: hidden;
@@ -51,7 +52,7 @@ overflow: hidden;
 header#drinks {
 padding: 20px; 
 width: 100%;
-background-color: #b9d1f0;
+background-color: var(--bg-color);
 background-size: auto;
 position: relative;
 overflow: hidden;
@@ -60,14 +61,14 @@ overflow: hidden;
 header#shop {
 padding: 20px; 
 width: 100%;
-background-color: #b9d1f0;
+background-color: var(--bg-color);
 background-size: auto;
 position: relative;
 overflow: hidden;
 }
 
 li a {
-font-family: "Open-sans", sans-serif;
+font-family: sans-serif;
 font-weight: 500;
 font-size: 20px;
 color: var(--text-color);
@@ -108,13 +109,8 @@ max-height: 90px;
     border: none;
     border-radius: 50px;
     cursor: pointer;
-    transition: all 0.3s ease 0s;
-
 }
 
-kurv:hover {
-    background-color: var(--main-color); 
-}
 
 /* Skjuler burgermenuens checkbox som aktiverer toggle funktionen */
 .menu-btn {
@@ -193,13 +189,44 @@ kurv:hover {
 display: flex;
 flex-direction: column;
 padding: 20px;
+min-width: 700px;
+margin-right: 120px;
+margin-top: 20px;
+
 }
 
 /* Sirup tekst */
 .headline {
 text-align: center;
+font-family: sans-serif;
 padding: 20px;
+font-size: 35px;
+min-width: 300px;
 }
+
+
+/* Billede tekst */
+
+.info-tekst h2 {
+text-align: center;
+font-family: sans-serif;
+font-weight: 400;
+
+}
+
+
+
+
+/* ingredienser */
+
+.info-tekst p {
+color: #988417;
+font-family: sans-serif;
+text-align: center;
+font-size: 25px;
+}
+
+
 
 
 /* Køb knap */
@@ -214,21 +241,23 @@ padding: 20px;
     text-decoration: none;
     color: var(--text-color);
     align-self: center;
+    font-family: sans-serif;
   
 }
 
 /* billede */
 
-.info-img {
+.info-img img {
 padding: 20px;
 width: 100%;
-margin-left: 80px;
 margin-top: 40px;
-
-
+min-width: 800px;
 
 }
 
+.info-img {
+margin-right: 400px;
+}
 
 /* PRODUKT INFO - SLUT */
 
@@ -449,9 +478,16 @@ max-width: 160px;
     flex-direction: column;
 }
 
-    .info-img {
-        overflow: hidden;
+    .info-tekst {
+        min-width: 375px;
+        
     }
+    
+.info-img img {
+width: 100%;
+margin-top: 40px;
+min-width: 350px;
+}
     
 /* Fjerner overskydende insta billeder */ 
     .insta-2, .insta-3, .insta-4, .insta-5 {
@@ -551,14 +587,10 @@ max-height: 70px;
     background-color: var(--hover-color);
     border: none;
     border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
+    cursor: pointer
 
 }
 
-kurv:hover {
-    background-color: var(--main-color); 
-}
 
 /* Skjuler burgermenuens checkbox som aktiverer toggle funktionen */
 .menu-btn {
@@ -591,6 +623,15 @@ kurv:hover {
 .produkt-info {
     display: flex; 
     flex-direction: column;
+}
+    
+.info-img img {
+padding: 20px;
+width: 100%;
+margin-top: 40px;
+min-width: 700px;
+margin-left: 30px;
+
 }
     
 /* Fjerner overskydende insta billeder */ 
@@ -742,3 +783,4 @@ flex-flow: wrap;
 h2, p {
  margin: 10px;
 }
+
