@@ -290,8 +290,8 @@ font-size: 20px;
 }
 
 .so-me img{
-max-width: 70px;
-margin: 10px;
+max-width: 60px;
+margin: 20px;
 }
 
 
@@ -481,8 +481,6 @@ max-width: 160px;
            
     }  
     
-}
-    
     
 /* UNDERSIDE 2 - DRINKS */
     
@@ -572,7 +570,7 @@ kurv:hover {
     
 /* Lakrids planter */
     
-    .plante {
+.plante {
         margin-bottom: 100px;
         margin-left: 5px;
         max-width: 350px;
@@ -599,6 +597,11 @@ kurv:hover {
     .insta-3, .insta-4, .insta-5 {
         display: none;
     }
+    
+/* Footer */
+    footer {
+    margin:15px;
+    }
 
 }
 /* RESPONSIV TABLET SLUT */
@@ -607,6 +610,7 @@ kurv:hover {
 
 .opskrifter-bg{
 background-image: linear-gradient(#b9d1f0, white);
+
 }
 
 /* opskrift-kort responsiv med flexbox */
