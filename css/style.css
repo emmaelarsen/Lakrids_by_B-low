@@ -503,6 +503,7 @@ min-width: 350px;
         align-content: center;
         margin: 15px;
         text-align: center;
+        margin-top: 60px;
         
     }
     
@@ -651,6 +652,7 @@ margin-left: 30px;
 /* Footer */
     footer {
     margin:15px;
+    margin-top:50px;
     }
 
 }
@@ -792,7 +794,7 @@ flex-flow: wrap;
 
 /* tekst */
 
-.soed-lakrids h2, .salt-lakrids h2 {
+.soed-lakrids h2, .salt-lakrids h2, .gave-lakrids h2 {
 margin-bottom: 20px
 }
 
