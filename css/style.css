@@ -47,6 +47,7 @@ background-color: var(--bg-color);
 background-size: auto;
 position: relative;
 overflow: hidden;
+
 }
 
 header#drinks {
@@ -357,7 +358,7 @@ background-position: center;
     padding: 0;
     list-style: none;
     overflow: hidden;
-    background-color: #fff;
+    background-color: var(--bg-color);
 
     }
     
@@ -533,7 +534,7 @@ min-width: 350px;
     
     
     
-/* UNDERSIDE 3 - KØB */ 
+/* UNDERSIDE 3 - SHOP */ 
 
     .lakrids-sirup img, .lakrids-gave img{
         width: 100%;   
@@ -748,7 +749,7 @@ padding: 10px;
 }
 
 
-/* UNDERSIDE 3 - KØB */
+/* UNDERSIDE 3 - SHOP */
 
 .shop-bg {
 background-image: linear-gradient(#b9d1f0, white);
@@ -798,7 +799,16 @@ flex-flow: wrap;
 margin-bottom: 20px
 }
 
-/* UNDERSIDE 3 - KØB SLUT */ 
+/* UNDERSIDE 3 - SHOP SLUT */ 
+
+/* UNDERSIDE 4 - KURV */
+
+.kurv-tekst, .shop-videre {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 80px;
+}
+
 
 
 /* generelt overskrifter og tekst */
