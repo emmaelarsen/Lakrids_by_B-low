@@ -274,10 +274,11 @@ margin-right: 400px;
     
 }
 
-.insta-1, .insta-2, .insta-3, .insta-4, .insta-5 {
+.insta-1 img, .insta-2 img, .insta-3 img, .insta-4 img {
 
 padding: 20px;
-    
+width: 100%;   
+max-width: 470px;
 }
 
 
@@ -287,6 +288,7 @@ padding: 20px;
 
 padding: 20px;
 text-align: center;
+margin-top: 80px;
     
 }
 
