@@ -810,6 +810,43 @@ margin-bottom: 20px
 }
 
 
+/*UNDERSIDE 5 - OPSKRIFT SKABELON */
+
+/* personer og tid knapper */
+.personer-btn, .tid-btn{
+    padding: 5px 5px;
+    background-color: var(--hover-color);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    max-width: 140px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--text-color);
+    align-self: center;
+    font-family: sans-serif;
+    margin: 10px;
+}
+
+/* Overskrift */
+.opskrift-1 h1 {
+text-align: center;
+}
+
+/* persooner og tid knapper */
+.opskrift-btn {
+display: flex;
+flex-direction: row;
+}
+
+
+/* ingredienser */
+
+ul.ingredienser {
+   list-style-type: square; 
+    margin: 40px;
+}
+
 
 /* generelt overskrifter og tekst */
 
