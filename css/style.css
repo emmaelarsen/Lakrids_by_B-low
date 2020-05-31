@@ -530,7 +530,14 @@ min-width: 350px;
     }
 
 
-
+/* UNDERSIDE 5 - OPSKRIFT SKABELON */
+    
+/*opskrift billede */
+    .opskrift-img img {
+        width: 100%;
+    }
+    
+    
 /* footer */ 
     
     footer {
@@ -701,17 +708,18 @@ justify-content: center;
 /* tekst inde i kort */
 
     text-align: center;
+    text-decoration: none;
 }
 
 
 
 /* overskrifter */
-.salty-h {
+.mad-h {
 text-align: center;
 padding: 10px;
 }
 
-.sweet-h {
+.desserter-h {
 text-align: center;
 padding: 10px;
 }
@@ -744,6 +752,7 @@ justify-content: center;
     
 /*tekst inde i kort */
     text-align: center;
+    text-decoration: none;
 
 
 }
@@ -819,7 +828,6 @@ margin-bottom: 20px
 
 /* personer og tid knapper */
 .personer-btn, .tid-btn{
-    padding: 5px 5px;
     background-color: var(--hover-color);
     border: none;
     border-radius: 50px;
@@ -844,20 +852,87 @@ flex-direction: row;
 display: flex;
 flex-direction: row;
 flex-flow: wrap;
+justify-content: center;
     
 }
 
-.opskrift-2 {
-    padding: 60px;
+/* Overskrift - navn på opskrift */
+.opskrift h1 {
+text-align: center;
+padding: 20px;
+margin-bottom: 20px;
+
 }
 
+
+/* Opskrift billede */
 .opskrift-img img {
-    padding: 60px;
+padding: 20px;
+display: flex;
+flex-flow: wrap;
 }
+
+
+/* Ingredienser, personer, tid */
+.opskrift-2 {
+    padding: 60px;
+    justify-content: center;
+}
+
+/* Ingredienser overskrift */
+.opskrift-2 h2 {
+font-size: 20px;
+text-align: center;
+margin-top: 5px;
+}
+
+/* Ingredienser */
+ul.ingredienser {
+line-height: 30px;
+margin-left: 50px
+}
+
+/* Fremgangsmåde overskrift */
+
+.vejledning-h {
+text-align: center;
+margin-top: 80px;
+}
+
+/*Fremgangsmåde liste */
+ul.vejledning {
+list-style-type: decimal;
+padding: 40px;
+line-height: 30px;
+margin-top: 40px;
+}
+
+/* fremgangsmåde flexbox */
+.vejledning-1{
+display: flex;
+flex-direction: row;
+flex-flow: wrap;
+justify-content: center;
+margin-top: -50px;
+}
+
+
 
 /* generelt overskrifter og tekst */
 
 h2, p {
  margin: 10px;
+}
+
+
+/* Generelt links - fjerne farve og understregning*/
+a:link {
+text-decoration: none;
+color: var(--text-color);
+}
+
+a:visited {
+text-decoration: none;
+color: var(--text-color);
 }
 
