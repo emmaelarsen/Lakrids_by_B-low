@@ -731,6 +731,83 @@ margin-left: 30px;
         display: none;
     }
     
+/* UNDERSIDE 4 - OPSKRIFT SKABELON */
+    
+
+/* generelt */
+
+.opskrift-1 {
+padding: 20px;
+}
+
+/* Overskrift */
+.opskrift-1 h1 {
+    font-size: 40px;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* persooner og tid knapper */
+
+.opskrift-btn {
+display: flex;
+flex-direction: row;
+justify-content: center;
+
+}
+
+/* opskrift ingredienser, overskrift, personer og tid */
+.opskrift {
+display: flex;
+flex-direction: column;
+
+}
+
+/* ingredienser */
+
+ul.ingredienser {
+   list-style-type: square;
+    font-size: 20px;
+    margin-left: 300px;
+}
+
+/* Fremgangsmåde */
+
+ul.vejledning {
+list-style-type: decimal;
+margin: 20px;
+font-size: 20px;
+margin-left: 120px;
+}
+
+
+
+/* Ingredienser overskrift */
+.opskrift-1 h2 {
+font-size: 25px;
+text-align: center;
+}
+
+/* overskrift fremgangsmåde */
+.opskrift-1 h3 {
+text-align: center;
+font-size: 25px;
+margin-top: 70px;
+}
+
+/* billede, ingredienser */
+.opskrift-2 {
+display: flex;
+flex-direction: column;
+}
+
+/*Opskrift billede */
+.opskrift-img img {
+padding: 30px;
+width: 100%;
+}
+
+    
 /* Footer */
     footer {
     margin:15px;
