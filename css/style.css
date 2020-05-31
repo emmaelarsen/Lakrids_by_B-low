@@ -496,19 +496,8 @@ min-width: 350px;
     }
         
    
-/* footer */ 
-    
-    footer {
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        margin: 15px;
-        text-align: center;
-        margin-top: 60px;
-        
-    }
-    
-/* UNDERSIDE 1 - OPSKRIFTER {
+
+/* UNDERSIDE 1 - OPSKRIFTER */
   /* Billeder */
     
     .card1 img, .card2 img, .card3 img, .card4 img, .card5 img, .card6 img{
@@ -540,85 +529,19 @@ min-width: 350px;
         width: 100%;   
     }
 
+
+
+/* footer */ 
     
-    
-    
-/* UNDERSIDE 4 - OPSKRIFT SKABELON */
-    
-
-/* generelt */
-
-.opskrift-1 {
-padding: 20px;
-}
-
-/* Overskrift */
-.opskrift-1 h1 {
-    font-size: 30px;
-    padding: 10px;
-    margin-bottom: 10px;
-    text-align: center;
-}
-/* persooner og tid knapper */
-
-.opskrift-btn {
-display: flex;
-flex-direction: row;
-justify-content: center;
-
-}
-
-/* opskrift ingredienser, overskrift, personer og tid */
-.opskrift {
-display: flex;
-flex-direction: column;
-
-}
-
-/* ingredienser */
-
-ul.ingredienser {
-   list-style-type: square;
-    font-size: 15px;
-    margin-left: 85px;
-}
-
-/* Fremgangsmåde */
-
-ul.vejledning {
-list-style-type: decimal;
-margin: 20px;
-font-size: 15px;
-margin-left: 40px;
-}
-
-
-
-/* Ingredienser overskrift */
-.opskrift-1 h2 {
-font-size: 20px;
-text-align: center;
-}
-
-/* overskrift fremgangsmåde */
-.opskrift-1 h3 {
-text-align: center;
-font-size: 20px;
-margin-top: 70px;
-}
-
-/* billede, ingredienser */
-.opskrift-2 {
-display: flex;
-flex-direction: column;
-}
-
-/*Opskrift billede */
-.opskrift-img img {
-padding: 10px;
-width: 100%;
-}
-
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        margin: 15px;
+        text-align: center;
+        margin-top: 60px;
+        
+    }
     
   }
 
@@ -731,82 +654,6 @@ margin-left: 30px;
         display: none;
     }
     
-/* UNDERSIDE 4 - OPSKRIFT SKABELON */
-    
-
-/* generelt */
-
-.opskrift-1 {
-padding: 20px;
-}
-
-/* Overskrift */
-.opskrift-1 h1 {
-    font-size: 40px;
-    padding: 10px;
-    margin-bottom: 10px;
-    text-align: center;
-}
-/* persooner og tid knapper */
-
-.opskrift-btn {
-display: flex;
-flex-direction: row;
-justify-content: center;
-
-}
-
-/* opskrift ingredienser, overskrift, personer og tid */
-.opskrift {
-display: flex;
-flex-direction: column;
-
-}
-
-/* ingredienser */
-
-ul.ingredienser {
-   list-style-type: square;
-    font-size: 20px;
-    margin-left: 300px;
-}
-
-/* Fremgangsmåde */
-
-ul.vejledning {
-list-style-type: decimal;
-margin: 20px;
-font-size: 20px;
-margin-left: 120px;
-}
-
-
-
-/* Ingredienser overskrift */
-.opskrift-1 h2 {
-font-size: 25px;
-text-align: center;
-}
-
-/* overskrift fremgangsmåde */
-.opskrift-1 h3 {
-text-align: center;
-font-size: 25px;
-margin-top: 70px;
-}
-
-/* billede, ingredienser */
-.opskrift-2 {
-display: flex;
-flex-direction: column;
-}
-
-/*Opskrift billede */
-.opskrift-img img {
-padding: 30px;
-width: 100%;
-}
-
     
 /* Footer */
     footer {
@@ -967,7 +814,6 @@ margin-bottom: 20px
     padding: 80px;
 }
 
-
 /*UNDERSIDE 5 - OPSKRIFT SKABELON */
 
 
@@ -985,8 +831,29 @@ margin-bottom: 20px
     align-self: center;
     font-family: sans-serif;
     margin: 10px;
+
+}   
+
+.opskrift-btn {
+display: flex;
+flex-direction: row;
 }
 
+/* får opskrift og billede til at stå ved siden af hinanden, og under hinanden ved mobil og tablet */
+.opskrift-1 {
+display: flex;
+flex-direction: row;
+flex-flow: wrap;
+    
+}
+
+.opskrift-2 {
+    padding: 60px;
+}
+
+.opskrift-img img {
+    padding: 60px;
+}
 
 /* generelt overskrifter og tekst */
 
