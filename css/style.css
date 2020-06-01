@@ -98,13 +98,15 @@ text-decoration: none;
 margin-top: -20px;
 padding: 10px;
 max-height: 90px;
+margin-bottom: 70px
 
 }
 
 .menu {
     list-style: none;
-    margin-top: -80px;
+    margin-top: -140px;
     float:right;
+    margin-bottom: 70px
 }
 
 .menu li {
@@ -1033,14 +1035,6 @@ justify-content: center;
 /* RESPONSIV DESKTOP START */
 @media screen and (min-width:1024px) and (max-width:1280px) {
             
-/* LAKRIDSPLANTE ANIMATION START */
-
-    .plante, .plante1 {
-        max-width: 400px;
-        position: fixed;
-    
-    }
-    
 /* UNDERSIDE 1 - OPSKRIFTER - START */
 
 .opskrifter-bg{
