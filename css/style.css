@@ -145,6 +145,7 @@ max-height: 90px;
     transform: translateX(-50%);
     position: absolute;
     z-index:2;
+    bottom: 100px;
 }
 
 .plante img {
@@ -152,7 +153,6 @@ max-height: 90px;
     animation: plante 1s linear infinite;
     margin-top: auto;
     max-width: 600px;
-    overflow: auto;
     
 }
 
@@ -183,9 +183,7 @@ max-height: 90px;
     animation: plante 1s linear infinite;
     margin-top: auto;
     max-width: 600px;
-    overflow: auto;
-
-    
+  
 }
 
 @keyframes plante1 {
@@ -1045,29 +1043,7 @@ justify-content: center;
 
 /* RESPONSIV DESKTOP START */
 @media screen and (min-width:1024px) and (max-width:2400px) {
-          
-
-/* LAKRIDSPLANTE ANIMATION START */
-
-/* Plante venstre side */
-.plante {
-    width:400px;
-    left:4%;
-    bottom:100px;
-    transform: translateX(-50%);
-    position: absolute;
-    z-index:2;
-    max-height: 700px;
-    margin-top: auto;
-}
-
-.plante img {
-    width: 110%;
-    animation: plante 1s linear infinite;
-    
-}  
- 
-    
+            
 
 /* UNDERSIDE 1 - OPSKRIFTER - START */
 
