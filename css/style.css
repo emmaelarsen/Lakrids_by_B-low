@@ -1048,7 +1048,8 @@ justify-content: center;
 @media screen and (min-width:1024px) {
             
     .plante img {
-resize: both;
+max-height: 700px;
+        bottom: auto;
     }
 
 /* UNDERSIDE 1 - OPSKRIFTER - START */
