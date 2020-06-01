@@ -146,6 +146,7 @@ max-height: 90px;
     position: absolute;
     z-index:2;
     bottom: 100px;
+    top: auto;
 }
 
 .plante img {
@@ -176,6 +177,7 @@ max-height: 90px;
     transform: translateX(-50%);
     position: absolute;
     z-index:2;
+    top: auto;
 }
 
 .plante1 img {
