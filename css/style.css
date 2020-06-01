@@ -146,7 +146,7 @@ max-height: 90px;
     position: absolute;
     z-index:2;
     bottom: 100px;
-    padding-top: 200px;
+
 
 
 }
@@ -154,7 +154,8 @@ max-height: 90px;
 .plante img {
     width: 100%;
     animation: plante 1s linear infinite;
-    max-width: 600px;
+    max-width: 400px;
+    margin-top: 200px;
     
 }
 
@@ -183,7 +184,7 @@ max-height: 90px;
 .plante1 img {
     width: 100%;
     animation: plante 1s linear infinite;
-    max-width: 600px;
+    max-width: 400px;
   
 }
 
