@@ -859,7 +859,7 @@ min-height: 1000px;
     display: flex;
     flex-direction: row;
     width: 100%;
-    padding: 50px;
+    padding: 70px;
 
            
     }  
@@ -1056,6 +1056,8 @@ justify-content: center;
     transform: translateX(-50%);
     position: absolute;
     z-index:2;
+    max-height: 600px;
+
 
 
 }
@@ -1075,6 +1077,7 @@ justify-content: center;
     transform: translateX(-50%);
     position: absolute;
     z-index:2;
+    max-height: 600px;
 
 
 }
@@ -1125,8 +1128,6 @@ justify-content: center;
     text-align: center;
     text-decoration: none;
 }
-
-
 
 /* overskrifter */
 .mad-h {
