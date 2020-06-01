@@ -152,6 +152,7 @@ max-height: 90px;
     animation: plante 1s linear infinite;
     margin-top: auto;
     max-width: 600px;
+    overflow: auto;
     
 }
 
@@ -182,6 +183,7 @@ max-height: 90px;
     animation: plante 1s linear infinite;
     margin-top: auto;
     max-width: 600px;
+    overflow: auto;
 
     
 }
