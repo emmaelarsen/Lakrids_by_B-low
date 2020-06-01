@@ -145,14 +145,13 @@ max-height: 90px;
     transform: translateX(-50%);
     position: absolute;
     z-index:2;
-    max-height: 700px;
 }
 
 .plante img {
-    width: 110%;
+    width: 100%;
     animation: plante 1s linear infinite;
     margin-top: auto;
-    margin-bottom: auto;
+    max-width: 600px;
     
 }
 
@@ -181,9 +180,8 @@ max-height: 90px;
 .plante1 img {
     width: 100%;
     animation: plante 1s linear infinite;
-    max-height: 700px;
     margin-top: auto;
-    margin-bottom: auto;
+    max-width: 600px;
 
     
 }
