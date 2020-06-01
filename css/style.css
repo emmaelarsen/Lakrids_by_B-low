@@ -1032,9 +1032,23 @@ justify-content: center;
 }
 /* RESPONSIV TABLET SLUT */
 
+
+
+
 /* RESPONSIV DESKTOP START */
 @media screen and (min-width:1024px) and (max-width:1280px) {
-            
+       
+    
+    
+/* HEADER */
+    
+    #logo img {
+    margin-bottom: 70px;
+    }
+    
+    .menu {
+        margin-bottom: 70px;
+    }
 /* UNDERSIDE 1 - OPSKRIFTER - START */
 
 .opskrifter-bg{
