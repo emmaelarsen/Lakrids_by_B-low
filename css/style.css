@@ -396,6 +396,7 @@ background-position: center;
   padding: 10px 20px;
   text-decoration: none;
 margin-top: -20px;
+margin-left: -20px;
 max-width: 160px;
 
 }
@@ -745,6 +746,7 @@ text-decoration: none;
 
 #logo img {
 max-height: 70px;
+margin-left: -20px;
 }
 
 .menu {
