@@ -1047,7 +1047,43 @@ justify-content: center;
 /* RESPONSIV DESKTOP START */
 @media screen and (min-width:1024px) and (max-width:2400px) {
             
+/* LAKRIDSPLANTE ANIMATION START */
 
+/* Plante venstre side */
+.plante {
+    width:400px;
+    transform: translateX(-50%);
+    position: absolute;
+    z-index:2;
+    bottom: 100px;
+    margin-top:100px;
+
+}
+
+.plante img {
+    width: 100%;
+    animation: plante 1s linear infinite;
+    max-width: 600px;
+    
+}
+    
+    /* Plante Højre side */
+.plante1 {
+    width:400px;
+    transform: translateX(-50%);
+    position: absolute;
+    z-index:2;
+    bottom: 100px;
+    margin-top:100px;
+
+}
+
+.plante1 img {
+    width: 100%;
+    animation: plante 1s linear infinite;
+    max-width: 600px;
+    
+}
 /* UNDERSIDE 1 - OPSKRIFTER - START */
 
 .opskrifter-bg{
