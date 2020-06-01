@@ -1062,7 +1062,9 @@ justify-content: center;
 .plante img {
     width: 100%;
     animation: plante 1s linear infinite;
-    max-width: 600px;
+    max-width: 400px;
+    padding-top: 40px;
+
     
 }
     
@@ -1079,7 +1081,8 @@ justify-content: center;
 .plante1 img {
     width: 100%;
     animation: plante 1s linear infinite;
-    max-width: 600px;
+    max-width: 400px;
+    padding-top: 40px;
     
 }
 /* UNDERSIDE 1 - OPSKRIFTER - START */
