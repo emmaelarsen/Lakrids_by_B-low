@@ -53,8 +53,6 @@ color: var(--text-color);
 
 header#index {
 background-image: url(../images/LBB_bg_7.jpg);
-background-size: cover;
-min-height: 1100px;
 }
 
 
@@ -137,6 +135,68 @@ max-height: 90px;
 }
 /* HEADER - SLUT */
 
+
+/* LAKRIDSPLANTE ANIMATION START */
+
+/* Plante venstre side */
+.plante {
+    width:400px;
+    left:4%;
+    bottom:100px;
+    transform: translateX(-50%);
+    position: absolute;
+    z-index:2;
+    max-height: 700px;
+}
+
+.plante img {
+    width: 110%;
+    animation: plante 1s linear infinite;
+    
+}
+
+@keyframes plante {
+    100%{
+        transform: translateY(-1px);
+    }
+    50%{
+        transform: translateY(1px);
+    }
+    0%{
+        transform: translateY(-1px);
+    }
+}
+
+/* plante højre side */
+.plante1 {
+    width:400px;
+    right:-14%;
+    bottom:100px;
+    transform: translateX(-50%);
+    position: absolute;
+    z-index:2;
+}
+
+.plante1 img {
+    width: 100%;
+    animation: plante 1s linear infinite;
+    max-height: 700px;
+    
+}
+
+@keyframes plante1 {
+    100%{
+        transform: translateY(-1px);
+    }
+    50%{
+        transform: translateY(1px);
+    }
+    0%{
+        transform: translateY(-1px);
+    }
+}
+   
+   
 
 /* PRODUKT INFO - START */
 
@@ -983,68 +1043,7 @@ justify-content: center;
 @media screen and (min-width:1024px) and (max-width:2400px) {
           
     
-
-/* LAKRIDSPLANTE ANIMATION START */
-
-/* Plante venstre side */
-.plante {
-    width:400px;
-    left:4%;
-    bottom:100px;
-    transform: translateX(-50%);
-    position: absolute;
-    z-index:2;
-    max-height: 700px;
-}
-
-.plante img {
-    width: 110%;
-    animation: plante 1s linear infinite;
-    
-}
-
-@keyframes plante {
-    100%{
-        transform: translateY(-1px);
-    }
-    50%{
-        transform: translateY(1px);
-    }
-    0%{
-        transform: translateY(-1px);
-    }
-}
-
-/* plante højre side */
-.plante1 {
-    width:400px;
-    right:-14%;
-    bottom:100px;
-    transform: translateX(-50%);
-    position: absolute;
-    z-index:2;
-}
-
-.plante1 img {
-    width: 100%;
-    animation: plante 1s linear infinite;
-    max-height: 700px;
-    
-}
-
-@keyframes plante1 {
-    100%{
-        transform: translateY(-1px);
-    }
-    50%{
-        transform: translateY(1px);
-    }
-    0%{
-        transform: translateY(-1px);
-    }
-}
-   
-    
+ 
     
 
 /* UNDERSIDE 1 - OPSKRIFTER - START */
