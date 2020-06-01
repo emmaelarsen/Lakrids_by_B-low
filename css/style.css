@@ -155,7 +155,6 @@ max-height: 90px;
     width: 100%;
     animation: plante 1s linear infinite;
     max-width: 400px;
-    position: static;
 
     
 }
@@ -1056,7 +1055,7 @@ justify-content: center;
     transform: translateX(-50%);
     position: absolute;
     z-index:2;
-    max-height: 700px;
+    max-height: 200px;
     bottom: 100px;
 
 
