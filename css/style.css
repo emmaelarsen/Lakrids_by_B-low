@@ -537,7 +537,7 @@ min-height: 1000px;
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding: 10px;
+    padding: 30px;
            
     }  
     
@@ -568,7 +568,7 @@ margin-top: 40px;
     flex-direction: row;
     flex-flow: wrap;
     width: 100%;
-    padding: 10px;
+    padding: 30px;
            
     }
     
@@ -588,7 +588,7 @@ margin-top: 40px;
 
     .lakrids-sirup img, .lakrids-gave img{
         width: 100%; 
-        padding: 10px;
+        padding: 30px;
         margin-top: 10px;
     }
 
@@ -857,9 +857,10 @@ min-height: 1000px;
     .card1 img, .card2 img, .card3 img, .card4 img, .card5 img {
     
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     width: 100%;
-    padding: 20px;
+    padding: 50px;
+
            
     }  
     
