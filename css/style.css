@@ -23,6 +23,22 @@ padding: 0;
     --bg-color: #b9d1f0;
 }
 
+/* Sans-serif */
+h1, h2, h3, li a, p, .cta-btn {
+font-family: sans-serif;
+}
+
+
+/* Generelt links - fjerne farve og understregning*/
+a:link {
+text-decoration: none;
+color: var(--text-color);
+}
+
+a:visited {
+text-decoration: none;
+color: var(--text-color);
+}
 
 
 /* HEADER - START */ 
@@ -199,7 +215,6 @@ margin-left: 100px
 /* Sirup tekst */
 .headline {
 text-align: center;
-font-family: sans-serif;
 padding: 20px;
 font-size: 35px;
 min-width: 300px;
@@ -211,7 +226,6 @@ margin-top: 10px;
 
 .info-tekst h2, .info-tekst h3 {
 text-align: center;
-font-family: sans-serif;
 font-weight: 400;
 font-size: 25px;
 
@@ -224,7 +238,6 @@ font-size: 25px;
 
 .info-tekst p {
 color: #988417;
-font-family: sans-serif;
 text-align: center;
 font-size: 25px;
 }
@@ -245,7 +258,6 @@ font-size: 25px;
     text-decoration: none;
     color: var(--text-color);
     align-self: center;
-    font-family: sans-serif;
   
 }
 
@@ -636,7 +648,6 @@ background-position: center;
 } 
     
 li a {
-font-family: "Open-sans", sans-serif;
 font-weight: 500;
 font-size: 16px;
 color: var(--text-color);
@@ -1103,16 +1114,5 @@ margin-top: -50px;
 }
 
 
-
-/* Generelt links - fjerne farve og understregning*/
-a:link {
-text-decoration: none;
-color: var(--text-color);
-}
-
-a:visited {
-text-decoration: none;
-color: var(--text-color);
-}
 
 
