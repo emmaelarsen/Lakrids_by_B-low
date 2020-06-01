@@ -155,7 +155,8 @@ max-height: 90px;
     width: 100%;
     animation: plante 1s linear infinite;
     max-width: 400px;
-    margin-top: 200px;
+    position: static;
+
     
 }
 
