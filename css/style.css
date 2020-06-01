@@ -1047,8 +1047,8 @@ justify-content: center;
 /* RESPONSIV DESKTOP START */
 @media screen and (min-width:1024px) {
             
-    .plante {
-        display:inherit;
+    .plante img {
+resize: both;
     }
 
 /* UNDERSIDE 1 - OPSKRIFTER - START */
