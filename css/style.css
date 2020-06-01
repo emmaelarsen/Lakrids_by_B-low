@@ -141,6 +141,7 @@ max-height: 90px;
 /* Plante venstre side */
 .plante {
     width:400px;
+    max-width: 400px;
     left:4%;
     transform: translateX(-50%);
     position: absolute;
@@ -154,7 +155,7 @@ max-height: 90px;
 .plante img {
     width: 100%;
     animation: plante 1s linear infinite;
-    max-width: 400px;
+
 
     
 }
@@ -174,6 +175,7 @@ max-height: 90px;
 /* plante højre side */
 .plante1 {
     width:400px;
+    max-width: 400px;
     right:-14%;
     bottom:100px;
     transform: translateX(-50%);
@@ -184,7 +186,7 @@ max-height: 90px;
 .plante1 img {
     width: 100%;
     animation: plante 1s linear infinite;
-    max-width: 400px;
+
   
 }
 
@@ -794,22 +796,6 @@ margin-left: -20px;
     
 
 /* Header slut */
-    
-/* Lakrids planter */
-    
-.plante {
-        margin-bottom: 100px;
-        margin-left: 5px;
-        max-width: 350px;
-
-    }
-    
-    .plante1 {
-        margin-bottom: 150px;
-        margin-right: -200px;
-        max-width: 350px;
-  
-    }
     
     
 /* Produkt info start */
