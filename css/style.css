@@ -1046,12 +1046,14 @@ justify-content: center;
 
 /* RESPONSIV DESKTOP START */
 @media screen and (min-width:1024px) {
-            
+      
+    
+    
     .plante img {
-max-height: 700px;
-        bottom: auto;
-    }
-
+        max-height: inherit;
+        margin-top: 40px;
+    }    
+    
 /* UNDERSIDE 1 - OPSKRIFTER - START */
 
 .opskrifter-bg{
