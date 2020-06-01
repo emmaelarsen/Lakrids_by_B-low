@@ -992,6 +992,7 @@ justify-content: center;
     transform: translateX(-50%);
     position: absolute;
     z-index:2;
+    max-height: 700px;
 }
 
 .plante img {
@@ -1025,6 +1026,7 @@ justify-content: center;
 .plante1 img {
     width: 100%;
     animation: plante 1s linear infinite;
+    max-height: 700px;
     
 }
 
