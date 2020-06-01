@@ -682,6 +682,7 @@ margin-top: -50px;
 display: flex;
 flex-direction: row;
 flex-flow: wrap;
+justify-content: center;
 }
 
 .personer-btn, .tid-btn  {
@@ -1002,6 +1003,7 @@ margin-top: -50px;
 display: flex;
 flex-direction: row;
 flex-flow: wrap;
+justify-content: center;
 }
     
 .personer-btn, .tid-btn  {
