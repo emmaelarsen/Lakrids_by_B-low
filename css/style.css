@@ -1037,7 +1037,7 @@ justify-content: center;
 
     .plante, .plante1 {
         max-width: 400px;
-        margin-top: 200px;
+        position: fixed;
     
     }
     
