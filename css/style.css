@@ -753,7 +753,7 @@ text-decoration: none;
 
 
 #logo img {
-max-height: 70px;
+max-height: 90px;
 margin-left: -20px;
 }
 
@@ -761,6 +761,7 @@ margin-left: -20px;
     list-style: none;
     float:right;
     margin-right: 4px;
+    margin-top: -85px
 
 }
 
@@ -1047,12 +1048,6 @@ justify-content: center;
 /* RESPONSIV DESKTOP START */
 @media screen and (min-width:1024px) {
       
-    
-    
-    .plante img {
-        max-height: inherit;
-        margin-top: 40px;
-    }    
     
 /* UNDERSIDE 1 - OPSKRIFTER - START */
 
