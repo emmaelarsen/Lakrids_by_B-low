@@ -1037,7 +1037,8 @@ justify-content: center;
 
     .plante, .plante1 {
         max-width: 400px;
-        bottom: 0px;
+        margin-top: 200px;
+    
     }
     
 /* UNDERSIDE 1 - OPSKRIFTER - START */
