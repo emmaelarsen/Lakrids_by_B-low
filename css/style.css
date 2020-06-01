@@ -44,9 +44,9 @@ color: var(--text-color);
 /* HEADER - START */ 
 
 .common-header {
-    padding: 20px; 
-    margin-bottom: auto;
+    padding: 20px;
     width: 100%;
+    min-width: 1500px;
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;  
@@ -99,6 +99,7 @@ text-decoration: none;
 margin-top: -20px;
 padding: 10px;
 max-height: 90px;
+margin: auto;
 
 }
 
@@ -106,6 +107,7 @@ max-height: 90px;
     list-style: none;
     margin-top: -80px;
     float:right;
+    min-height: 60px;
 }
 
 .menu li {
