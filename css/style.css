@@ -1047,6 +1047,12 @@ justify-content: center;
 /* RESPONSIV DESKTOP START */
 @media screen and (min-width:1024px) {
             
+    .plante, .plante1 {
+    max-height: 600px;
+    margin-top: 300px;
+        
+    }
+    
 
 /* UNDERSIDE 1 - OPSKRIFTER - START */
 
