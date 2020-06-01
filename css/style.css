@@ -142,7 +142,6 @@ max-height: 90px;
 .plante {
     width:400px;
     left:4%;
-    bottom:100px;
     transform: translateX(-50%);
     position: absolute;
     z-index:2;
@@ -153,6 +152,7 @@ max-height: 90px;
     width: 110%;
     animation: plante 1s linear infinite;
     margin-top: auto;
+    margin-bottom: auto;
     
 }
 
@@ -183,6 +183,8 @@ max-height: 90px;
     animation: plante 1s linear infinite;
     max-height: 700px;
     margin-top: auto;
+    margin-bottom: auto;
+
     
 }
 
