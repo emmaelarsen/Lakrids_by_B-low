@@ -146,6 +146,7 @@ max-height: 90px;
     position: absolute;
     z-index:2;
     bottom: 100px;
+    padding-top: 200px;
 
 
 }
@@ -1055,7 +1056,6 @@ justify-content: center;
     z-index:2;
     max-height: 700px;
     bottom: 100px;
-    padding-top: 200px;
 
 
 
