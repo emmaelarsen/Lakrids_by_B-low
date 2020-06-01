@@ -53,6 +53,8 @@ color: var(--text-color);
 
 header#index {
 background-image: url(../images/LBB_bg_7.jpg);
+background-size: cover;
+min-height: 1100px;
 }
 
 
