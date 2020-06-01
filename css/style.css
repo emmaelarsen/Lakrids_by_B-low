@@ -98,15 +98,13 @@ text-decoration: none;
 margin-top: -20px;
 padding: 10px;
 max-height: 90px;
-margin-bottom: 70px
 
 }
 
 .menu {
     list-style: none;
-    margin-top: -140px;
+    margin-top: -80px;
     float:right;
-    margin-bottom: 70px
 }
 
 .menu li {
@@ -143,7 +141,6 @@ margin-bottom: 70px
 /* Plante venstre side */
 .plante {
     width:400px;
-    max-width: 400px;
     left:4%;
     transform: translateX(-50%);
     position: absolute;
@@ -157,8 +154,8 @@ margin-bottom: 70px
 .plante img {
     width: 100%;
     animation: plante 1s linear infinite;
-
-
+    max-width: 400px;
+    
     
 }
 
@@ -177,7 +174,6 @@ margin-bottom: 70px
 /* plante højre side */
 .plante1 {
     width:400px;
-    max-width: 400px;
     right:-14%;
     bottom:100px;
     transform: translateX(-50%);
@@ -188,7 +184,7 @@ margin-bottom: 70px
 .plante1 img {
     width: 100%;
     animation: plante 1s linear infinite;
-
+    max-width: 400px;
   
 }
 
@@ -799,6 +795,22 @@ margin-left: -20px;
 
 /* Header slut */
     
+/* Lakrids planter */
+    
+.plante {
+        margin-bottom: 100px;
+        margin-left: 5px;
+        max-width: 350px;
+
+    }
+    
+    .plante1 {
+        margin-bottom: 150px;
+        margin-right: -200px;
+        max-width: 350px;
+  
+    }
+    
     
 /* Produkt info start */
     
@@ -1032,25 +1044,50 @@ justify-content: center;
 }
 /* RESPONSIV TABLET SLUT */
 
-
-
-
 /* RESPONSIV DESKTOP START */
-@media screen and (min-width:1024px){
-       
+@media screen and (min-width:1024px) and (max-width:1280px) {
+            
+/* LAKRIDSPLANTE ANIMATION START */
+
+/* Plante venstre side */
+.plante {
+    width:400px;
+    transform: translateX(-50%);
+    position: absolute;
+    z-index:2;
+    max-height: 700px;
+    bottom: 100px;
+
+
+
+}
+
+.plante img {
+    width: 100%;
+    animation: plante 1s linear infinite;
+    max-width: 400px;
+
     
+}
     
-/* HEADER */
+    /* Plante Højre side */
+.plante1 {
+    width:400px;
+    transform: translateX(-50%);
+    position: absolute;
+    z-index:2;
+    max-height: 700px;
+    bottom: 100px;
+
+
+}
+
+.plante1 img {
+    width: 100%;
+    animation: plante 1s linear infinite;
+    max-width: 400px;
     
-    #logo img {
-    margin-bottom: 70px;
-    }
-    
-    .menu {
-        margin-bottom: 70px;
-    }
-    
-    
+}
 /* UNDERSIDE 1 - OPSKRIFTER - START */
 
 .opskrifter-bg{
