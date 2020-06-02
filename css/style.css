@@ -1136,7 +1136,7 @@ text-decoration: none;
 margin-top: -20px;
 padding: 10px;
 max-height: 110px;
-position: relative;
+overflow: visible;
 
 }
 
@@ -1144,7 +1144,7 @@ position: relative;
     list-style: none;
     margin-top: -80px;
     float:right;
-    position: relative;
+    overflow: visible;
 }
 
 .menu li {
