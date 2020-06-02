@@ -372,7 +372,8 @@ min-height: 1000px;
     .card1 img, .card2 img, .card3 img, .card4 img, .card5 img {
     
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-flow: wrap;
     width: 100%;
     padding: 30px;
            
@@ -858,6 +859,7 @@ min-height: 1000px;
     
     display: flex;
     flex-direction: row;
+    flex-flow: wrap;
     width: 100%;
     padding: 70px;
 
