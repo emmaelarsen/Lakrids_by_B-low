@@ -729,34 +729,84 @@ margin-left: -20px;
         transform: translateY(-1px);
     }
 }
-    
-/* Produkt info start */
-    
+  
+   /* PRODUKT INFO - START */
 
 .produkt-info {
     display: flex; 
     flex-direction: column;
+    background-image: linear-gradient(#b9d1f0, white);
 }
-    
-/* Info tekst */
-    
+
+.info-tekst {
+display: flex;
+flex-direction: column;
+padding: 20px;
+min-width: 700px;
+margin: 5px;
+
+}
+
+/* Sirup tekst */
+.headline {
+text-align: center;
+padding: 20px;
+font-size: 35px;
+min-width: 300px;
+margin-top: 10px;
+}
 
 
-    .info-tekst {
-    margin: 5px;
-    max-width: 700px;
-   margin-left: 30px;    
-        
-    }
-    
-   
+/* Billede tekst */
+
+.info-tekst h2, .info-tekst h3 {
+text-align: center;
+font-weight: 400;
+font-size: 25px;
+
+}
+
+
+
+/* ingredienser */
+
+.info-tekst p {
+color: #988417;
+text-align: center;
+font-size: 25px;
+}
+
+
+
+
+/* Køb knap */
+.cta-btn { 
+    padding: 10px 30px;
+    background-color: var(--hover-color);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    max-width: 150px;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--text-color);
+    align-self: center;
+  
+}
+
+/* billede */
+
 .info-img img {
 padding: 50px;
 width: 100%;
 margin-top: 40px;
-max-width: 760px;
+min-width: 760px; 
+
 
 }
+
+
     
 /* Fjerner overskydende insta billeder */ 
     .insta-3, .insta-4, .insta-5 {
