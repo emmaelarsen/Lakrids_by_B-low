@@ -1135,15 +1135,13 @@ text-decoration: none;
 
 margin-top: -20px;
 padding: 10px;
-margin-bottom: 70px;
 max-height: 110px;
 
 }
 
 .menu {
     list-style: none;
-    margin-top: -150px;
-    margin-bottom: 70px;
+    margin-top: -80px;
     float:right;
 }
 
@@ -1189,6 +1187,7 @@ max-height: 110px;
         width: 400px;
         max-height: 700px;
         transform: translatex(-50%);
+        overflow-x: hidden;
 
     }
     
