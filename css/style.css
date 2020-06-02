@@ -1182,18 +1182,19 @@ max-height: 110px;
     
 /* LAKRIDSPLANTE ANIMATION START */
 
+    
+    .plante, .plante1 {
+        display: flex;
+        bottom: 100px;
+        z-index: 2;
+        position: absolute;
+        width: 400px;
+        transform: translatex(-50%)
+    }
+    
 /* Plante venstre side */
 .plante {
-    width:400px;
     left:4%;
-    transform: translateX(-50%);
-    position: absolute;
-    z-index:2;
-    bottom: 100px;
-   display: flex;
-
-    
-
 }
 
 .plante img {
@@ -1216,15 +1217,9 @@ max-height: 110px;
     }
 }
 
-/* plante højre side */
+/* plante venstre side */
 .plante1 {
-    width:400px;
     right:-14%;
-    transform: translateX(-50%);
-    position: absolute;
-    z-index:2;
-    bottom:100px;
-    display: flex;
 }
 
 .plante1 img {
