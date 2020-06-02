@@ -1078,9 +1078,7 @@ margin: 20px;
 /* RESPONSIV DESKTOP START */
 @media all and (min-width:769px) {
       
-    
-    
-    
+      
 /* HEADER - START */ 
 
 .common-header {
@@ -1176,9 +1174,7 @@ max-height: 110px;
 /* HEADER - SLUT */
 
 
-    
-    
-    
+      
     
 /* LAKRIDSPLANTE ANIMATION START */
 
@@ -1189,6 +1185,7 @@ max-height: 110px;
         bottom: 100px;
         z-index: 2;
         width: 400px;
+        max-height: 700px;
         transform: translatex(-50%);
 
     }
