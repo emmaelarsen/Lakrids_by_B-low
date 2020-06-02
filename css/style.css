@@ -1187,6 +1187,7 @@ max-height: 110px;
         width: 400px;
         max-height: 700px;
         transform: translatex(-50%);
+        overflow-x: hidden;
 
     }
     
@@ -1199,10 +1200,7 @@ max-height: 110px;
     width: 100%;
     animation: plante 1s linear infinite;
     min-width: 400px;
-    overflow: hidden;
-    z-index: 2;
-    
-    
+
 }
 
 @keyframes plante {
