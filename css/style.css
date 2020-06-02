@@ -60,6 +60,16 @@ background-position: center;
     
 } 
     
+    
+header#opskrifter, header#drinks, header#shop {
+width: 100%;
+background-color: var(--bg-color);
+background-size: auto;
+position: relative;
+padding: 20px;
+
+}
+    
 .nav {
    width: 100%;
    z-index: 3;
@@ -594,9 +604,17 @@ height: 100vh;
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
-
     
-} 
+}
+    
+header#opskrifter, header#drinks, header#shop {
+width: 100%;
+background-color: var(--bg-color);
+background-size: auto;
+position: relative;
+overflow: hidden;
+
+}
     
 li a {
 font-weight: 500;
@@ -607,15 +625,17 @@ text-decoration: none;
 
 
 #logo img {
-max-height: 90px;
-margin-left: -20px;
+max-height: 100px;
+padding: 15px;
+
 }
 
 .menu {
     list-style: none;
     float:right;
-    margin-right: 4px;
-    margin-top: -85px
+    margin-right: 20px;
+    margin-top: -100px
+
 
 }
 
@@ -895,7 +915,7 @@ margin-top: 40px;
 
     .lakrids-sirup img, .lakrids-gave img{
         width: 100%; 
-        padding: 10px;
+        padding: 50px;
         margin-top: 40px;
     }
 
