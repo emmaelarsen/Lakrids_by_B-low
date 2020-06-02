@@ -1189,8 +1189,9 @@ max-height: 110px;
     transform: translateX(-50%);
     position: absolute;
     z-index:2;
-    bottom: 200px;
+    bottom: 100px;
 display: flex;
+    overflow: hidden;
     
 
 
@@ -1227,6 +1228,7 @@ display: flex;
     transform: translateX(-50%);
     position: absolute;
     z-index:2;
+    display: flex;
 }
 
 .plante1 img {
