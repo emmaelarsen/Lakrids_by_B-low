@@ -1135,13 +1135,15 @@ text-decoration: none;
 
 margin-top: -20px;
 padding: 10px;
+margin-bottom: 70px;
 max-height: 110px;
 
 }
 
 .menu {
     list-style: none;
-    margin-top: -80px;
+    margin-top: -150px;
+    margin-bottom: 70px;
     float:right;
 }
 
@@ -1339,7 +1341,6 @@ min-width: 700px;
 padding: 20px;
 width: 100%;   
 max-width: 470px;
-min-width: 470px;
 }
 
 
