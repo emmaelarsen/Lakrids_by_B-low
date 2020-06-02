@@ -1181,7 +1181,6 @@ max-height: 110px;
 
     
     .plante, .plante1 {
-        display: none;
         position: absolute;
         bottom: 100px;
         z-index: 2;
