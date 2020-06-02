@@ -1087,12 +1087,10 @@ margin: 20px;
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover; 
-    position: relative;
 }
 
 header#index {
 background-image: url(../images/LBB_bg_7.jpg);
-position: relative;
 }
 
 
@@ -1183,7 +1181,7 @@ max-height: 110px;
 
     
     .plante, .plante1 {
-        display: flex;
+        display:block;
         position: absolute;
         bottom: 100px;
         z-index: 2;
