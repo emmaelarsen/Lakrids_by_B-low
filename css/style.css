@@ -1185,11 +1185,12 @@ max-height: 110px;
     
     .plante, .plante1 {
         display: flex;
+        position: absolute;
         bottom: 100px;
         z-index: 2;
-        position: absolute;
         width: 400px;
-        transform: translatex(-50%)
+        transform: translatex(-50%);
+        overflow: hidden;
     }
     
 /* Plante venstre side */
