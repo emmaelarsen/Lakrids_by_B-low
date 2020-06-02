@@ -1190,7 +1190,7 @@ max-height: 110px;
     position: absolute;
     z-index:2;
     bottom: 100px;
-display: flex;
+   display: flex;
 
     
 
@@ -1220,11 +1220,10 @@ display: flex;
 .plante1 {
     width:400px;
     right:-14%;
-
     transform: translateX(-50%);
     position: absolute;
     z-index:2;
-        bottom:100px;
+    bottom:100px;
     display: flex;
 }
 
