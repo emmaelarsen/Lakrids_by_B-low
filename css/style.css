@@ -1191,7 +1191,8 @@ max-height: 110px;
     z-index:2;
     bottom: 100px;
 display: flex;
-flex-flow: nowrap;
+    max-height: inherit;
+
 
 
 
