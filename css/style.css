@@ -1189,9 +1189,10 @@ max-height: 110px;
     transform: translateX(-50%);
     position: absolute;
     z-index:2;
-    bottom: 100px;
+    bottom: 200px;
 display: flex;
-    max-height: 700px;
+    
+
 
 
 
