@@ -1200,6 +1200,7 @@ max-height: 110px;
     width: 100%;
     animation: plante 1s linear infinite;
     min-width: 400px;
+    overflow-x: hidden;
 
 }
 
