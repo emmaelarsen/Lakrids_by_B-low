@@ -1190,7 +1190,8 @@ max-height: 110px;
     position: absolute;
     z-index:2;
     bottom: 100px;
-    top: 330px;
+display: flex;
+flex-flow: wrap;
 
 
 }
