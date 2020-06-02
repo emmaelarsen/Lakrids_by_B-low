@@ -1191,12 +1191,8 @@ max-height: 110px;
     z-index:2;
     bottom: 100px;
 display: flex;
-    overflow: hidden;
+
     
-
-
-
-
 
 }
 
@@ -1224,10 +1220,11 @@ display: flex;
 .plante1 {
     width:400px;
     right:-14%;
-    bottom:100px;
+
     transform: translateX(-50%);
     position: absolute;
     z-index:2;
+        bottom:100px;
     display: flex;
 }
 
