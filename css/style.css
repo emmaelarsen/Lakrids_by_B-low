@@ -1137,7 +1137,7 @@ text-decoration: none;
 
 margin-top: -20px;
 padding: 10px;
-max-height: 90px;
+max-height: 110px;
 
 }
 
@@ -1180,7 +1180,7 @@ max-height: 90px;
     
     
     
-    /* LAKRIDSPLANTE ANIMATION START */
+/* LAKRIDSPLANTE ANIMATION START */
 
 /* Plante venstre side */
 .plante {
@@ -1190,7 +1190,7 @@ max-height: 90px;
     position: absolute;
     z-index:2;
     bottom: 100px;
-
+    top: 330px;
 
 
 }
@@ -1198,7 +1198,7 @@ max-height: 90px;
 .plante img {
     width: 100%;
     animation: plante 1s linear infinite;
-    max-width: 400px;
+    min-width: 400px;
     
     
 }
