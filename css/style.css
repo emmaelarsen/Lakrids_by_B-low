@@ -375,9 +375,27 @@ min-height: 1000px;
     flex-direction: row;
     flex-flow: wrap;
     width: 100%;
-    padding: 30px;
+    padding: 10px;
            
     }  
+    
+/* kort */
+.card1, .card2, .card3, .card4, .card5 {
+    
+  /* skygge effekt */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+
+/* skaber afstand mellem opskrifterne */
+   margin: 40px;
+    
+/* tekst inde i kort */
+
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
     
 /* Overskrifter */
 .mad-h {
@@ -406,9 +424,28 @@ margin-top: 40px;
     flex-direction: row;
     flex-flow: wrap;
     width: 100%;
-    padding: 30px;
+    padding: 10px;
            
     }
+    
+    
+/* kort */
+.card-1, .card-2, .card-3, .card-4, .card-5, .card-6 {
+    
+  /* skygge effekt */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+
+/* skaber afstand mellem opskrifterne */
+   margin: 40px;
+    
+/* tekst inde i kort */
+
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
     
     /*Overskrift */
     
@@ -861,10 +898,29 @@ min-height: 1000px;
     flex-direction: row;
     flex-flow: wrap;
     width: 100%;
-    padding: 70px;
+    padding: 20px;
 
            
     }  
+    
+    
+/* kort */
+.card1, .card2, .card3, .card4, .card5 {
+    
+  /* skygge effekt */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+
+/* skaber afstand mellem opskrifterne */
+   margin: 50px;
+    
+/* tekst inde i kort */
+
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
     
     /* Overskrifter */
 .mad-h {
@@ -898,6 +954,25 @@ margin-top: 40px;
     padding: 20px;
            
     }
+    
+    
+/* kort */
+.card-1, .card-2, .card-3, .card-4, .card-5, .card-6 {
+    
+  /* skygge effekt */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+
+/* skaber afstand mellem opskrifterne */
+   margin: 50px;
+    
+/* tekst inde i kort */
+
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
     
     /*Overskrift */
     
@@ -1391,6 +1466,7 @@ justify-content: center;
 /* tekst inde i kort */
 
     text-align: center;
+    padding: 15px;
     text-decoration: none;
 }
 
@@ -1428,11 +1504,13 @@ justify-content: center;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
 
+
 /* skaber afstand mellem opskrifterne */
    margin: 10px;
     
 /*tekst inde i kort */
     text-align: center;
+    padding: 15px;
     text-decoration: none;
 
 
