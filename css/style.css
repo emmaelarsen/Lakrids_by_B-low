@@ -1177,7 +1177,6 @@ overflow: hidden;
 
 
 li a {
-font-family: sans-serif;
 font-weight: 500;
 font-size: 20px;
 color: var(--text-color);
@@ -1360,7 +1359,7 @@ align-self: center;
 padding: 20px;
 width: 100%;
 margin-top: 70px;
-min-width: 700px; 
+max-width: 400px; 
 
 
 }
