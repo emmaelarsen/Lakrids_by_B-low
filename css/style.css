@@ -64,8 +64,8 @@ background-position: center;
     
 } 
     
-/* Bagrundsfarve undersider */ 
-header#opskrifter, header#drinks, header#shop, {
+/* Header undersider */ 
+header#opskrifter, header#drinks, header#shop {
 width: 100%;
 background-color: var(--bg-color);
 background-size: auto;
@@ -74,14 +74,13 @@ padding: 20px;
 
 }
 
-header#drinks {
-width: 100%;
-background-color: var(--bg-color);
-background-size: auto;
-position: relative;
-padding: 20px;
-
-    }
+/* baggrundsfarve undersider */ 
+    
+.drinks-bg, .shop-bg, .opskrifter-bg {
+display: flex; 
+flex-direction: column;
+background-image: linear-gradient(#b9d1f0, white);
+}
     
 /*Navbar */
 .nav {
@@ -433,7 +432,6 @@ display: flex;
 flex-direction: row;
 flex-flow: wrap;
 width: 100%;
-padding: 10px;
            
     }
     
@@ -655,7 +653,7 @@ background-position: center;
     
 }
 
-/* Baggrundsfarve undersider */
+/* Header undersider */
 header#opskrifter, header#drinks, header#shop {
 width: 100%;
 background-color: var(--bg-color);
@@ -663,6 +661,13 @@ background-size: auto;
 position: relative;
 overflow: hidden;
 
+}
+ 
+/* Baggrundsfarve undersider */
+.drinks-bg, .shop-bg, .opskrifter-bg {
+display: flex; 
+flex-direction: column;
+background-image: linear-gradient(#b9d1f0, white);
 }
     
 li a {
