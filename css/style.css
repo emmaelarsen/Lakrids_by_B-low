@@ -10,14 +10,14 @@ padding: 0;
 }
 
 
-
-/* FONT */ 
-
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
-
 /* Sans-serif */
-h1, h2, h3, li a, p, .cta-btn {
-font-family: sans-serif;
+h2, h3, li a, p, .cta-btn {
+font-family: 'georgia',serif;
+
+}
+
+h1 {
+font-family: 'verdana', sans-serif;
 }
 
 
@@ -631,7 +631,7 @@ margin: 20px;
 
 /* RESPONSIV TABLET - START */ 
 
-@media only screen and (min-width:768px){
+@media only screen and (min-width:768px) and (max-width:921px) {
         
 /* Header start */ 
 
