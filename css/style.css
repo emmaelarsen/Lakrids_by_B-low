@@ -672,21 +672,21 @@ padding: 15px;
 
 /* Menu */
 .menu {
-    list-style: none;
-    float:right;
-    margin-right: 20px;
-    margin-top: -100px
+list-style: none;
+float:right;
+margin-right: 20px;
+margin-top: -100px
 
 
 }
 
 .menu li {
-    display: inline-block;
-    padding: 25px 20px;
+display: inline-block;
+padding: 25px 20px;
 }
 
 .menu li a {
-    transition: all 0.3s ease 0s;
+transition: all 0.3s ease 0s;
 }
 
 .menu li a:hover {
@@ -705,7 +705,7 @@ padding: 15px;
 
 /* Skjuler burgermenuens checkbox som aktiverer toggle funktionen */
 .menu-btn {
-    display: none;
+display: none;
 }
     
 
@@ -725,9 +725,9 @@ bottom: 200px;
 }
 
 .plante img {
-    width: 100%;
-    animation: plante 1s linear infinite;
-    max-width: 400px;
+width: 100%;
+animation: plante 1s linear infinite;
+max-width: 400px;
    
 }
 
@@ -746,17 +746,17 @@ bottom: 200px;
 
 /* Plante højre side */
 .plante1 {
-    width:400px;
-    bottom:200px;
-    transform: translateX(135%);
-    position: absolute;
-    z-index:2;
+width:400px;
+bottom:200px;
+transform: translateX(135%);
+position: absolute;
+z-index:2;
 }
 
 .plante1 img {
-    width: 100%;
-    animation: plante 1s linear infinite;
-    max-width: 400px;
+width: 100%;
+animation: plante 1s linear infinite;
+max-width: 400px;
   
 }
 
