@@ -10,12 +10,13 @@ padding: 0;
 }
 
 
-/* Sans-serif */
+/* Generelt tekst */
 h2, h3, li a, p, .cta-btn {
 font-family: 'georgia',serif;
 
 }
 
+/* Generelt overskrifter */
 h1 {
 font-family: 'verdana', sans-serif;
 }
